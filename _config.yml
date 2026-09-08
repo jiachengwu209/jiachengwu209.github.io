@@ -1,2 +1,91 @@
+# =========================================
+# Jiacheng Wu Academic Homepage
+# =========================================
 
-theme: jekyll-theme-modernist
+# Basic site information
+title: "Jiacheng Wu"
+description: "PhD Researcher in Chemical Engineering | Electrochemical Energy Storage | Carbon Materials"
+
+author: "Jiacheng Wu"
+
+email: "jiwu7886@uni.sydney.edu.au"
+
+# GitHub Pages
+url: "https://jiachengwu209.github.io"
+baseurl: ""
+
+# -----------------------------------------
+# Jekyll Theme
+# -----------------------------------------
+
+plugins:
+  - jekyll-remote-theme
+
+remote_theme: vszhub/not-pure-poole
+
+# -----------------------------------------
+# Homepage / Academic profile
+# -----------------------------------------
+
+tagline: "Chemical Engineering | Energy Storage | Electrochemistry"
+
+bio: >
+  PhD researcher in Chemical Engineering at the University of Sydney.
+  My research focuses on practical high-mass-loading carbon electrodes,
+  aqueous zinc-ion hybrid capacitors, sodium-ion batteries,
+  carbon nanomaterials, and electrochemical energy storage.
+
+# -----------------------------------------
+# Research Interests
+# -----------------------------------------
+
+research_interests:
+  - "Aqueous Zinc-Ion Hybrid Capacitors"
+  - "High-Mass-Loading Carbon Electrodes"
+  - "Carbon Materials for Electrochemical Energy Storage"
+  - "Sodium-Ion Batteries"
+  - "Electrospun Carbon Nanofibers"
+  - "Porous Carbon Materials"
+  - "Electrochemistry"
+
+# -----------------------------------------
+# GitHub
+# -----------------------------------------
+
+github_username: "jiachengwu209"
+
+repository: "jiachengwu209/jiachengwu209.github.io"
+
+# -----------------------------------------
+# Jekyll settings
+# -----------------------------------------
+
+markdown: kramdown
+
+permalink: pretty
+
+timezone: Australia/Sydney
+
+# -----------------------------------------
+# Theme appearance
+# -----------------------------------------
+
+cover_bg_color: "rgb(35, 55, 70)"
+cover_color: "rgb(255, 255, 255)"
+
+# -----------------------------------------
+# SEO
+# -----------------------------------------
+
+lang: "en"
+
+keywords:
+  - "Jiacheng Wu"
+  - "University of Sydney"
+  - "Chemical Engineering"
+  - "Zinc-ion batteries"
+  - "Zinc-ion hybrid capacitors"
+  - "Sodium-ion batteries"
+  - "Carbon electrodes"
+  - "Carbon nanofibers"
+  - "Electrochemical energy storage"
