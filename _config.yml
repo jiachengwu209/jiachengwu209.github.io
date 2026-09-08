@@ -3,3 +3,17 @@ plugins:
 
 remote_theme: vszhub/not-pure-poole
 
+title: "Jiacheng Wu"
+description: "Academic homepage of Jiacheng Wu"
+
+author:
+  name: "Jiacheng Wu"
+  email: "jiwu7886@uni.sydney.edu.au"
+
+url: "https://jiachengwu209.github.io"
+baseurl: ""
+
+github_username: "jiachengwu209"
+
+markdown: kramdown
+
