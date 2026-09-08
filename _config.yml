@@ -1,90 +1,107 @@
-# =========================================
-# Jiacheng Wu Academic Homepage
-# =========================================
-
-# Basic site information
 title: "Jiacheng Wu"
-description: "PhD Researcher in Chemical Engineering | Electrochemical Energy Storage | Carbon Materials"
+description: "Academic Homepage of Jiacheng Wu"
 
-author: "Jiacheng Wu"
+author:
+  name: "Jiacheng Wu"
+  email: "jiwu7886@uni.sydney.edu.au"
+  affiliation: "The University of Sydney"
+  location: "Sydney, Australia"
 
-email: "jiwu7886@uni.sydney.edu.au"
-
-# GitHub Pages
 url: "https://jiachengwu209.github.io"
 baseurl: ""
 
-# -----------------------------------------
-# Jekyll Theme
-# -----------------------------------------
+# Jekyll
+theme: minima
+markdown: kramdown
+permalink: pretty
+timezone: Australia/Sydney
 
-plugins:
-  - jekyll-remote-theme
+# GitHub
+github_username: "jiachengwu209"
 
-remote_theme: vszhub/not-pure-poole
+# Academic profile
+position: "PhD Researcher in Chemical Engineering"
 
-# -----------------------------------------
-# Homepage / Academic profile
-# -----------------------------------------
+research_summary: >
+  My research focuses on practical high-mass-loading carbon electrodes
+  for electrochemical energy storage, particularly aqueous zinc-ion
+  hybrid capacitors and sodium-ion batteries. My work investigates
+  electronic and ionic transport, porous carbon materials, electrode
+  architecture, carbon nanofibers, and practical energy-storage devices.
 
-tagline: "Chemical Engineering | Energy Storage | Electrochemistry"
+# Education
+education:
+  - institution: "The University of Sydney"
+    degree: "PhD in Chemical Engineering"
+    field: "Electrochemical Energy Storage and Carbon Materials"
 
-bio: >
-  PhD researcher in Chemical Engineering at the University of Sydney.
-  My research focuses on practical high-mass-loading carbon electrodes,
-  aqueous zinc-ion hybrid capacitors, sodium-ion batteries,
-  carbon nanomaterials, and electrochemical energy storage.
+  - institution: "The University of Sydney"
+    degree: "Bachelor of Engineering Honours"
+    field: "Chemical and Biomolecular Engineering"
+    years: "2018–2022"
 
-# -----------------------------------------
-# Research Interests
-# -----------------------------------------
-
+# Research interests
 research_interests:
   - "Aqueous Zinc-Ion Hybrid Capacitors"
   - "High-Mass-Loading Carbon Electrodes"
-  - "Carbon Materials for Electrochemical Energy Storage"
   - "Sodium-Ion Batteries"
-  - "Electrospun Carbon Nanofibers"
   - "Porous Carbon Materials"
-  - "Electrochemistry"
+  - "Carbon Nanofibers"
+  - "Electrospinning"
+  - "Electrode Transport Engineering"
+  - "Electrochemical Energy Storage"
 
-# -----------------------------------------
-# GitHub
-# -----------------------------------------
+# Research topics
+research_topics:
+  - "Electronic transport in thick carbon electrodes"
+  - "Ion transport and diffusion in porous electrodes"
+  - "Directional pore engineering"
+  - "CNT conductive networks"
+  - "Biomass-derived hard carbon"
+  - "Joule-heating synthesis of carbon materials"
+  - "Practical coin-cell and pouch-cell development"
 
-github_username: "jiachengwu209"
+# Experimental skills
+skills:
+  electrochemistry:
+    - "Cyclic Voltammetry (CV)"
+    - "Galvanostatic Charge/Discharge (GCD)"
+    - "Electrochemical Impedance Spectroscopy (EIS)"
+    - "Zinc-ion batteries"
+    - "Zinc-ion hybrid capacitors"
+    - "Sodium-ion batteries"
 
-repository: "jiachengwu209/jiachengwu209.github.io"
+  materials:
+    - "Porous carbon"
+    - "Carbon nanofibers"
+    - "Carbon nanotubes"
+    - "Electrospinning"
+    - "Metal-organic frameworks"
 
-# -----------------------------------------
-# Jekyll settings
-# -----------------------------------------
+  characterization:
+    - "SEM"
+    - "TEM"
+    - "XRD"
+    - "XPS"
+    - "Raman spectroscopy"
+    - "BET surface area analysis"
+    - "Micro-CT"
 
-markdown: kramdown
+# Awards
+awards:
+  - "Engineering Summer Research Scholarship, 2020"
+  - "Dalyell Global Exchange Scholarship, 2019"
+  - "Dalyell Scholar, 2018"
 
-permalink: pretty
-
-timezone: Australia/Sydney
-
-# -----------------------------------------
-# Theme appearance
-# -----------------------------------------
-
-cover_bg_color: "rgb(35, 55, 70)"
-cover_color: "rgb(255, 255, 255)"
-
-# -----------------------------------------
 # SEO
-# -----------------------------------------
-
 lang: "en"
 
 keywords:
   - "Jiacheng Wu"
   - "University of Sydney"
   - "Chemical Engineering"
-  - "Zinc-ion batteries"
   - "Zinc-ion hybrid capacitors"
+  - "Zinc-ion batteries"
   - "Sodium-ion batteries"
   - "Carbon electrodes"
   - "Carbon nanofibers"
